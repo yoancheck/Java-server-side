@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#122439"
+    tools:context=".GameActivity">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="315dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/op1"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#177A98"
+        android:gravity="center"
+        android:onClick="sendAsr"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/op2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="440dp"
+        android:backgroundTint="#177A98"
+        android:gravity="center"
+        android:onClick="sendAsr"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/op3"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#177A98"
+        android:gravity="center"
+        android:onClick="sendAsr"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/op4"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#177A98"
+        android:gravity="center"
+        android:onClick="sendAsr"
+        android:text="Button" />
+
+
+</RelativeLayout>
