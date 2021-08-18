@@ -55,20 +55,20 @@ public class QuestionsIHandler implements IHandler{
 
 
     private void loadData(){
-        String[] options1 ={"לונדון","ברלין","פריז","לוס אנג'לס"};
-        String[] options2 ={"אנקה","תימרה","גימלה","נאקה"};
-        String[] options3 ={"צנחנים","פיקוד העורף","שריון","גולני"};
-        String[] options4 ={"1440","2400","1200","840"};
-        String[] options5 ={"יאיר ניצני","גבי ניצן","יוסי גינסברג","גדי טאוב"};
+        String[] options1 ={"Tel-aviv","Paris","Washington DC","Helsinki"};
+        String[] options2 ={"London","Roma","Paris","Washington DC"};
+        String[] options3 ={"Tel-aviv","Barcelona","Damascus","New-York"};
+        String[] options4 ={"Roma","London","Torronto","Sydney"};
+        String[] options5 ={"Kaboul","London","Bucarest","Budapest"};
 
-        questions[0]=new Questions("באיזו עיר נמצאת כיכר פיקדילי",options1,0);
-        questions[1]=new Questions("כיצד נקראת נקבת הגמל?",options2,3);
-        questions[2]=new Questions("אם חייל מסתובב עם כומתה בצבע כתום זה כנראה אומר שהוא משרת ב...",options3,1);
-        questions[3]=new Questions("כמה דקות יש ביממה?",options4,0);
-        questions[4]=new Questions("מי כתב את הספר באדולינה?",options5,1);
-
+        questions[0]=new Questions("What is the capital of France",options1,1);
+        questions[1]=new Questions("What is the capital of USA",options2,3);
+        questions[2]=new Questions("What is the capital of Spain",options3,1);
+        questions[3]=new Questions("What is the capital of Italy",options4,0);
+        questions[4]=new Questions("What is the capital of England",options5,1);
 
     }
 
 
 }
+
